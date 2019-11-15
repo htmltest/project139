@@ -1,0 +1,146 @@
+*,
+*::before,
+*::after {outline:none; box-sizing:border-box}
+
+html {min-width:720px}
+
+body {min-width:720px; margin:0; padding:0; font:34px/40px Arial, sans-serif; color:#f5c949; background:#000; -webkit-text-size-adjust:100%; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale}
+.fonts-loaded body {font-family:Gilroy, sans-serif}
+
+@media (max-width:1194px) {
+    body {font-size:21px; line-height:27px}
+}
+
+a {color:#fff}
+
+::-ms-clear {display:none}
+
+.wrapper {width:100%; min-width:720px; position:relative; overflow:hidden; background:url(../images/bg.jpg) center top; padding:70px 0 250px 0}
+
+@media (max-width:1194px) {
+    .wrapper {background:url(../images/bg-mobile.jpg) no-repeat center top; padding:187px 0 150px 0}
+}
+
+.header-realme {width:197px; height:49px; margin:0 auto; background:url(../images/header-realme.png) no-repeat}
+.header-bf {width:607px; height:322px; margin:68px auto 0 auto; background:url(../images/header-bf.png) no-repeat}
+.header-discount {text-align:center; font-weight:bold; font-size:36px; line-height:40px; padding:52px 0 0 0}
+.header-limit {text-align:center; font-weight:bold; font-size:29px; line-height:35px; padding:23px 0 0 0}
+.header-text {text-align:center; font-size:18px; line-height:24px; text-transform:uppercase; padding:36px 0 0 0}
+
+@media (max-width:1194px) {
+    .header-realme {width:110px; height:27px; background:url(../images/header-realme-mobile.png) no-repeat}
+    .header-bf {width:333px; height:176px; margin:20px auto 0 auto; background:url(../images/header-bf-mobile.png) no-repeat}
+    .header-discount {display:none}
+    .header-limit {display:none}
+    .header-text {padding:71px 0 0 0}
+}
+
+@media (max-width:1194px) {
+    .shops-wrap {position:relative; padding:48px 0 7px 0}
+}
+
+.shops-title {text-align:center; margin:200px 0 0 0; padding:55px 0 0 0}
+
+@media (max-width:1194px) {
+    .shops-title {margin:0; padding:0; position:absolute; left:0; bottom:-21px; right:0}
+}
+
+.shops {text-align:center; font-size:0; line-height:0; letter-spacing:-1px; padding:17px 0 0 0; white-space:nowrap}
+.shops a {display:inline-block; vertical-align:middle; transition:all 0.2s}
+.shops a:hover {opacity:0.8}
+.shop-1 {width:187px; height:65px; background:url(../images/shop-1.png) no-repeat}
+.shop-2 {width:212px; height:65px; background:url(../images/shop-2.png) no-repeat}
+.shop-3 {width:347px; height:76px; background:url(../images/shop-3.png) no-repeat}
+.shop-4 {width:224px; height:51px; background:url(../images/shop-4.png) no-repeat}
+.shops-sep {display:inline-block; vertical-align:middle; width:2px; height:89px; background:#fff; margin:0 35px}
+
+@media (max-width:1194px) {
+    .shop-1 {width:103px; height:37px; background:url(../images/shop-1-mobile.png) no-repeat}
+    .shop-2 {width:118px; height:37px; background:url(../images/shop-2-mobile.png) no-repeat}
+    .shop-3 {width:192px; height:42px; background:url(../images/shop-3-mobile.png) no-repeat}
+    .shop-4 {width:124px; height:29px; background:url(../images/shop-4-mobile.png) no-repeat}
+    .shops-sep {height:50px; margin:0 20px; background:#857d7e}
+}
+
+.model {margin:0 auto; width:1195px; color:#fff; padding:82px 0 0 0}
+.model-1 {color:#000}
+.model-wrap {margin:0 -227px}
+.model-inner {width:1649px; margin:0 auto; height:566px; border-radius:50px/36px; background:no-repeat center; background-size:cover}
+.model-1 .model-inner {background-image:url(../images/model-1.jpg)}
+.model-2 .model-inner {background-image:url(../images/model-2.jpg)}
+.model-3 .model-inner {background-image:url(../images/model-3.jpg)}
+.model-container {padding:50px 0 0 889px}
+.model-1 .model-title {width:233px; height:39px; background:url(../images/model-1-title.png) no-repeat}
+.model-2 .model-title {width:192px; height:38px; background:url(../images/model-2-title.png) no-repeat}
+.model-3 .model-title {width:242px; height:39px; background:url(../images/model-3-title.png) no-repeat}
+.model-price-old {text-decoration:line-through; font-weight:500; font-size:40px; padding:15px 0 0 0}
+.model-price {font-weight:bold; color:#f5c949; font-size:46px; line-height:46px; padding:3px 0 0 0}
+.model-prefs {display:table; margin:22px 0 0 0}
+.model-pref {display:table-row}
+.model-pref-icon {display:table-cell; vertical-align:middle; line-height:0; text-align:center; padding:8px 30px 8px 0}
+.model-pref-title {display:table-cell; vertical-align:middle; font-size:31px; line-height:31px; padding:8px 0}
+.model-btn {padding:32px 0 0 126px}
+.model-btn a {display:block; width:202px; height:69px; text-decoration:none; color:#f5c949; border:1px solid #f5c949; transition:all 0.2s; line-height:67px; font-size:24px; font-weight:300; text-align:center}
+.model-btn a:hover {background:#f5c949; color:#000}
+.model-1 .model-btn a {color:#688df3; border:1px solid #688df3}
+.model-1 .model-btn a:hover {background:#688df3; color:#fff}
+
+@media (max-width:1194px) {
+    .model {padding:48px 0 0 0; width:670px}
+    .model-wrap {margin:0}
+    .model-inner {width:auto; height:920px; border-radius:38px; position:relative}
+    .model-1 .model-inner {background-image:url(../images/model-1-mobile.jpg)}
+    .model-2 .model-inner {background-image:url(../images/model-2-mobile.jpg)}
+    .model-3 .model-inner {background-image:url(../images/model-3-mobile.jpg)}
+    .model-container {padding:44px 0 0 0; text-align:center}
+    .model-title {margin:0 auto}
+    .model-price-old {padding:0; position:absolute; left:0; bottom:51px; right:0; font-size:27px; line-height:27px}
+    .model-price {position:absolute; left:0; bottom:11px; right:0; font-size:34px; line-height:34px; padding:0}
+    .model-btn {padding:0; position:absolute; left:0; bottom:91px; right:0}
+    .model-btn a {margin:0 auto; width:238px; height:80px; line-height:78px; font-size:27px}
+    .model-1 .model-btn a {color:#0138ea; border:1px solid #0138ea}
+    .model-1 .model-btn a:hover {background:#0138ea; color:#fff}
+    .model-prefs {display:block; margin:0; position:absolute; left:0; bottom:190px; right:0; font-size:30px; line-height:30px}
+    .model-3 .model-prefs {font-size:21px; line-height:21px}
+    .model-pref {display:inline-block}
+    .model-pref::before {content:"I"; display:inline-block; vertical-align:middle}
+    .model-pref:first-child::before {display:none}
+    .model-pref-icon {display:none}
+    .model-pref-title {display:inline-block; vertical-align:middle; font-size:30px; line-height:30px; padding:0}
+    .model-3 .model-pref-title {font-size:21px; line-height:21px}
+}
+
+.footer-realme-mobile {display:none}
+.footer-bf {width:174px; height:92px; background:url(../images/footer-bf.png) no-repeat; margin:60px auto 0 auto}
+.footer-realme {width:64px; height:16px; background:url(../images/footer-realme.png) no-repeat; margin:16px auto 0 auto}
+.footer-text {text-align:center; color:#f5c949; font-size:16px; line-height:19px; text-transform:uppercase; padding:19px 0 0 0}
+
+@media (max-width:1194px) {
+    .footer-realme-mobile {display:block; width:36px; height:9px; background:url(../images/footer-realme-mobile.png) no-repeat; margin:37px auto 0 auto}
+    .footer-bf {width:110px; height:58px; background:url(../images/footer-bf-mobile.png) no-repeat; margin:8px auto 0 auto}
+    .footer-realme {display:none}
+    .footer-text {display:none}
+}
+
+nav {position:fixed; right:60px; top:50%; transform:translateY(-50%); z-index:9}
+nav ul {margin:0; padding:0; list-style:none; font-weight:600; font-size:11px; line-height:16px; white-space:nowrap; text-align:right}
+nav ul li {margin:24px 0 0 0; padding:0}
+nav ul li:first-child {margin:0}
+nav ul li::after {content:""; display:block; clear:both}
+nav ul li a {float:right; display:block; position:relative; padding:0 21px 0 0; text-decoration:none; color:rgba(255, 255, 255, 0); transition:all 0.2s; font-size:0; line-height:16px; height:16px}
+nav ul li a:hover,
+nav ul li.active a {color:rgba(255, 255, 255, 1); font-size:11px}
+nav ul li a::after {content:""; display:block; position:absolute; right:0; top:50%; width:16px; height:16px; margin-top:-8px; border:3px solid #fff; border-radius:50%; opacity:0; transition:all 0.2s}
+nav ul li a:hover::after,
+nav ul li.active a::after {opacity:1}
+nav ul li a::before {content:""; display:block; position:absolute; right:3px; top:50%; width:10px; height:10px; margin-top:-5px; background:#fff; border-radius:50%; opacity:1; transition:all 0.2s}
+nav ul li a:hover::before,
+nav ul li.active a::before {opacity:0}
+
+@media (max-width:1194px) {
+    nav {right:10px}
+    nav ul li a:hover,
+    nav ul li.active a {font-size:0; color:rgba(255, 255, 255, 0)}
+    nav ul li a::after {background:#fff}
+    nav ul li a::before {right:4px; top:50%; width:7px; height:7px; margin-top:-3px}
+}
