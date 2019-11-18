@@ -18,7 +18,7 @@ a {color:#fff}
 .wrapper {width:100%; min-width:720px; position:relative; overflow:hidden; background:url(../images/bg.jpg) center top; padding:70px 0 250px 0}
 
 @media (max-width:1194px) {
-    .wrapper {background:url(../images/bg-mobile.jpg) no-repeat center top; padding:187px 0 150px 0}
+    .wrapper {background:url(../images/bg-mobile.jpg) no-repeat center top; padding:133px 0 59px 0}
 }
 
 .header-realme {width:197px; height:49px; margin:0 auto; background:url(../images/header-realme.png) no-repeat}
@@ -29,10 +29,10 @@ a {color:#fff}
 
 @media (max-width:1194px) {
     .header-realme {width:110px; height:27px; background:url(../images/header-realme-mobile.png) no-repeat}
-    .header-bf {width:333px; height:176px; margin:20px auto 0 auto; background:url(../images/header-bf-mobile.png) no-repeat}
-    .header-discount {display:none}
-    .header-limit {display:none}
-    .header-text {padding:71px 0 0 0}
+    .header-bf {width:333px; height:176px; margin:22px auto 0 auto; background:url(../images/header-bf-mobile.png) no-repeat}
+    .header-discount {font-size:23px; line-height:23px}
+    .header-limit {font-size:19px; line-height:19px; padding:17px 0 0 0}
+    .header-text {padding:12px 0 0 0; font-size:15px; line-height:15px}
 }
 
 @media (max-width:1194px) {
@@ -42,11 +42,12 @@ a {color:#fff}
 .shops-title {text-align:center; margin:200px 0 0 0; padding:55px 0 0 0}
 
 @media (max-width:1194px) {
-    .shops-title {margin:0; padding:0; position:absolute; left:0; bottom:-21px; right:0}
+    .shops-title {font-size:34px; line-height:40px; margin:0; padding:138px 0 0 0}
 }
 
 .shops {text-align:center; font-size:0; line-height:0; letter-spacing:-1px; padding:17px 0 0 0; white-space:nowrap}
-.shops a {display:inline-block; vertical-align:middle; transition:all 0.2s}
+.shops-item {display:inline-block; vertical-align:middle}
+.shops a {display:inline-block; transition:all 0.2s}
 .shops a:hover {opacity:0.8}
 .shop-1 {width:187px; height:65px; background:url(../images/shop-1.png) no-repeat}
 .shop-2 {width:212px; height:65px; background:url(../images/shop-2.png) no-repeat}
@@ -55,11 +56,13 @@ a {color:#fff}
 .shops-sep {display:inline-block; vertical-align:middle; width:2px; height:89px; background:#fff; margin:0 35px}
 
 @media (max-width:1194px) {
-    .shop-1 {width:103px; height:37px; background:url(../images/shop-1-mobile.png) no-repeat}
-    .shop-2 {width:118px; height:37px; background:url(../images/shop-2-mobile.png) no-repeat}
-    .shop-3 {width:192px; height:42px; background:url(../images/shop-3-mobile.png) no-repeat}
-    .shop-4 {width:124px; height:29px; background:url(../images/shop-4-mobile.png) no-repeat}
-    .shops-sep {height:50px; margin:0 20px; background:#857d7e}
+    .shops {white-space:normal; padding:11px 0 0 0}
+    .shops-item {width:50%; padding:31px 0}
+    .shop-1 {width:156px; height:55px; background:url(../images/shop-1-mobile.png) no-repeat}
+    .shop-2 {width:167px; height:49px; background:url(../images/shop-2-mobile.png) no-repeat}
+    .shop-3 {width:236px; height:52px; background:url(../images/shop-3-mobile.png) no-repeat}
+    .shop-4 {width:153px; height:35px; background:url(../images/shop-4-mobile.png) no-repeat}
+    .shops-sep {display:none}
 }
 
 .model {margin:0 auto; width:1195px; color:#fff; padding:82px 0 0 0}
@@ -94,20 +97,16 @@ a {color:#fff}
     .model-3 .model-inner {background-image:url(../images/model-3-mobile.jpg)}
     .model-container {padding:44px 0 0 0; text-align:center}
     .model-title {margin:0 auto}
-    .model-price-old {padding:0; position:absolute; left:0; bottom:51px; right:0; font-size:27px; line-height:27px}
-    .model-price {position:absolute; left:0; bottom:11px; right:0; font-size:34px; line-height:34px; padding:0}
-    .model-btn {padding:0; position:absolute; left:0; bottom:91px; right:0}
-    .model-btn a {margin:0 auto; width:238px; height:80px; line-height:78px; font-size:27px}
-    .model-1 .model-btn a {color:#0138ea; border:1px solid #0138ea}
-    .model-1 .model-btn a:hover {background:#0138ea; color:#fff}
-    .model-prefs {display:block; margin:0; position:absolute; left:0; bottom:190px; right:0; font-size:30px; line-height:30px}
-    .model-3 .model-prefs {font-size:21px; line-height:21px}
-    .model-pref {display:inline-block}
-    .model-pref::before {content:"I"; display:inline-block; vertical-align:middle}
-    .model-pref:first-child::before {display:none}
+    .model-price-old {padding:0; position:absolute; left:0; bottom:156px; right:0; font-size:35px; line-height:35px}
+    .model-price {position:absolute; left:0; bottom:106px; right:0; font-size:42px; line-height:42px; padding:0}
+    .model-btn {padding:0; position:absolute; left:0; bottom:16px; right:0}
+    .model-btn a {margin:0 auto; width:238px; height:80px; line-height:76px; font-size:27px; border-width:2px}
+    .model-1 .model-btn a {color:#000; border:2px solid #000}
+    .model-1 .model-btn a:hover {background:#000; color:#fff}
+    .model-prefs {display:block; margin:0; position:absolute; left:0; bottom:205px; right:0; font-size:34px; line-height:48px}
+    .model-pref {display:block}
     .model-pref-icon {display:none}
-    .model-pref-title {display:inline-block; vertical-align:middle; font-size:30px; line-height:30px; padding:0}
-    .model-3 .model-pref-title {font-size:21px; line-height:21px}
+    .model-pref-title {display:block; font-size:34px; line-height:48px; padding:0}
 }
 
 .footer-realme-mobile {display:none}
