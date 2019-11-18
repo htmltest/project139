@@ -2,9 +2,9 @@
 *::before,
 *::after {outline:none; box-sizing:border-box}
 
-html {min-width:720px}
+html {min-width:720px; overflow:visible; height:initial}
 
-body {min-width:720px; margin:0; padding:0; font:34px/40px Arial, sans-serif; color:#f5c949; background:#000; -webkit-text-size-adjust:100%; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale}
+body {min-width:720px; overflow:visible; height:initial; margin:0; padding:0; font:34px/40px Arial, sans-serif; color:#f5c949; background:#000; -webkit-text-size-adjust:100%; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale}
 .fonts-loaded body {font-family:Gilroy, sans-serif}
 
 @media (max-width:1194px) {
@@ -39,10 +39,10 @@ a {color:#fff}
     .shops-wrap {position:relative; padding:48px 0 7px 0}
 }
 
-.shops-title {text-align:center; margin:200px 0 0 0; padding:55px 0 0 0}
+.shops-title {text-align:center; padding:255px 0 0 0}
 
 @media (max-width:1194px) {
-    .shops-title {font-size:34px; line-height:40px; margin:0; padding:138px 0 0 0}
+    .shops-title {font-size:34px; line-height:40px; padding:138px 0 0 0}
 }
 
 .shops {text-align:center; font-size:0; line-height:0; letter-spacing:-1px; padding:17px 0 0 0; white-space:nowrap}
